@@ -1,0 +1,39 @@
+header{
+background-color: #E6E6E6;
+text-align: center;
+}
+h1{
+background: #c4c4c4;
+color: #005677;
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+text-align: center;
+letter-spacing: 0.5em;
+line-height: 60px;
+margin-bottom: 100px;
+}
+h2{
+background: #c4c4c4;
+color: #005677;
+font-family: 'Times New Roman', Times, serif;
+margin-top:35px;
+letter-spacing: 0.5em;
+}
+li{
+font-family: "Times New Roman", sans-serif;
+margin-bottom: 10px;
+}
+span{
+white-space: pre-wrap;
+}
+footer{
+color: #FFFFFF;
+background: #005677;
+font-family: 'Times New Roman';
+text-align: center;
+letter-spacing: 0.5em;
+line-height: 37px;
+}
+img {
+vertical-align: middle;
+}
