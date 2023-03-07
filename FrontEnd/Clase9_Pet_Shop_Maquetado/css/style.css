@@ -1,0 +1,110 @@
+body{
+font-family:'Roboto';
+margin: 0;
+padding: 0;
+}
+
+.barra_superior{
+align-items: center;
+background: rgba(34, 34, 34, 1);
+display:flex;
+height: 20px;
+justify-content: space-between;
+}
+.mensaje_promo{
+color: #F3F3F3;
+line-height: 12px;
+font-size: 10px;
+}
+
+.icon_vector {
+margin-left: 2.5px;
+vertical-align: middle;
+}
+  
+nav.menu_regional ul{
+display: flex;
+list-style: none;
+margin-right: 38px;
+}
+nav.menu_regional a{
+align-items: center;
+color: #F3F3F3;
+display: flex;
+font-size: 10px;
+line-height: 12px;
+margin-right: 12px;
+text-decoration: none;
+}
+
+.barra_menu_principal{
+background: rgba(240, 168, 62, 1);
+}
+
+nav.menu_principal ul{
+display: flex;
+list-style: none;
+}
+nav.menu_principal a{
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+
+.banner_title{
+color: rgba(60, 35, 19, 1);
+font-size: 30px;
+}
+.banner_text{
+color: rgba(60, 35, 19, 1);
+font-size: 16px;
+}
+.banner_link{
+background: rgba(240, 168, 62, 1);
+color: #FFFFFF;
+font-size: 16px;
+text-decoration: none;
+}
+
+
+h2{
+color: #3C2313;
+font-size: 40px;
+text-align: center;
+}
+nav.menu_productos ul{
+display: flex;
+list-style: none;
+}
+nav.menu_productos a{
+color: #666666;
+display: flex;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+}
+
+.producto{
+display: flex;
+}
+
+footer{
+background: rgba(60, 35, 19, 1);
+}
+span {
+display: block;
+}
+nav.menu_footer ul{
+list-style: none;
+}
+nav.menu_footer a{
+color: #FFFFFF;
+font-size: 20px;
+line-height: 23px;
+text-decoration: none;
+}
+.footer_text{
+background: #222222;
+color: #FFFFFF;
+font-size: 10px;
+line-height: 12px;
+}
