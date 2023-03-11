@@ -1,0 +1,149 @@
+body{
+background: #F3F3F3;
+font-family:'Roboto';
+margin: 0;
+padding: 0;
+}
+
+header{
+background-color: rgba(34, 34, 34, 1);
+height: 100px;
+display: flex;
+justify-content: space-between;
+}
+.header_logo{
+display: flex;
+align-items: center;
+margin-left: 20px;
+}
+.logo_pizza{
+width: 92px;
+height: 80px;
+}
+.logo_text{
+font-weight: 700;
+font-size: 24px;
+padding: 10px;
+}
+
+.menu_principal{
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
+nav.menu_principal ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+padding-inline-start: 0px;
+gap: 13px;
+}
+nav.menu_principal a{
+color: #F3F3F3;
+font-weight: 400;
+font-size: 16px;
+text-decoration: none;
+}
+
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.content{
+display: flex;
+padding-top: 35px;
+padding-bottom: 35px;
+gap:5px 
+}
+
+.delivery{
+background-image: url('../img/delivery_img.jpg');
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+width: 490px;
+height: 350px;
+}
+.delivery_text{
+font-weight: 700;
+font-size: 24px;
+margin: 0;
+padding: 20px;
+}
+
+.podio{
+width: 491px;
+height: 350px;
+background: #FFFFFF;
+border-radius: 5px;
+}
+.podio_title{
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+margin-top: 26px;
+margin-bottom: 30px;
+}
+.podio_top{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+gap:101px  
+}
+.podio_text{
+color: #222222;
+font-weight: 700;
+font-size: 20px;
+margin: 0;
+text-align: center;
+padding-bottom: 20px;
+}
+ol{
+color: #222222;
+font-weight: 700;
+font-size: 16px;
+display:flex;
+flex-direction: column;
+gap:10px;
+margin: 0;
+}
+.podio_img{
+border-radius: 5px;
+width: 92px;
+height: 129px;
+object-fit: cover;
+}
+
+footer{
+background-color: rgba(34, 34, 34, 1);
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.menu_footer{
+display: flex;
+align-items: center;
+margin-left: 20px;
+}
+nav.menu_footer ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-inline-start: 0px;
+gap: 13px;
+margin:0
+}
+nav.menu_footer a{
+color: #F3F3F3;
+font-weight: 400;
+font-size: 16px;
+text-decoration: none;
+}
+.footer_logo{
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
