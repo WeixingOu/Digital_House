@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Pet Shop</title>
+</head>
+<body>
+    <header>
+        <section class="barra_superior">
+            <p class="mensaje_promo">Grandes ofertas en comederos</p>
+            <nav class="menu_regional">
+                <ul>
+                    <li><a href="#">Español<img src="img\icon_vector.png" class="icon_vector"></a></li>
+                    <li><a href="#">$ARG<img src="img\icon_vector.png" class="icon_vector"></a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="barra_principal">
+            <img src="img\logo1.png" alt="logo1" class="logo1_img"> 
+            <nav class="menu_principal">
+                <ul>
+                    <li><a href="#"><img src="img\icon_patita1.png" class="icon_patita1">Categorías</a></li>
+                    <li><a href="#"><img src="img\icon_patita1.png" class="icon_patita1">Pets</a></li>
+                    <li><a href="#"><img src="img\icon_patita1.png" class="icon_patita1">Nosotros</a></li>
+                    <li><a href="#"><img src="img\icon_patita1.png" class="icon_patita1">Contactanos</a></li>
+                </ul>
+            </nav>    
+        </section>
+    </header>
+    <main>
+        <section class="banner">
+            <h1 class="banner_title">¡Es un placer tenerte aquí!</h1>
+            <p class="banner_text">¡Comederos en descuento!</p>
+            <a href="#" class="banner_link">COMEDEROS</a>
+        </section>
+        <section class="content">
+            <div class="productos_destacados_title">
+                <img src="img\icon_patita2.png" class="icon_patita2">
+                <h1 class="productos_destacados_title">Productos Destacados</h1>
+                <nav class="menu_productos">
+                    <ul>
+                    <li><a href="#">Comederos</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Comida</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="productos_destacados">
+                <article class="producto">
+                    <img src="img\producto1.png" alt="Juguete Churasquito" class="producto_img">
+                    <h1 class="producto_name">Jueguete Churrasquito</h1>
+                    <p class="producto_price">$150</p>
+                </article>
+                <article class="producto">
+                    <img src="img\producto2.png" alt="Comedero para perro" class="producto_img">
+                    <h1 class="producto_name">Comedero para perro</h1>
+                    <p class="producto_price">$250</p>
+                </article>
+                <article class="producto">
+                    <img src="img\producto3.png" alt="Juguete Huesito" class="producto_img">
+                    <h1 class="producto_name">Juguete Huesito</h1>
+                    <p class="producto_price">$650</p>
+                </article>
+            </div>
+        </section>
+        <section class="formulario">
+            <h1 class="formulario_title">Contáctanos</h1>
+            <input type="text" id="formulario_input" name="nombre_apellido" placeholder="Nombre y Apellido">
+            <input type="email" id="formulario_input" name="email" placeholder="Ingresá tu correo electrónico">
+            <input type="tel" id="formulario_input" name="telefono" placeholder="Teléfono">
+            <div class="botones">
+                <button type="reset" class="boton_reset">Resetear</button>
+                <button type="submit" class="boton_submit">Enviar</button>
+            </div>
+        </section>
+        <section class="suscribcion">
+            <div class="suscribcion_text">
+                <img src="img\icon_correo.png" class="icon_correo">
+                <p id="suscribcion_text">Suscríbete para más novedades</p>
+            </div>
+            <div class="suscribcion_input">
+                <input type="email" id="suscribcion_input" name="email" placeholder="Ingresá tu correo electrónico">
+                <button type="submit" class="boton_suscribe">Suscribirme</button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer_container">
+            <nav class="menu_footer">
+                <ul>
+                    <li><a href="#"><img src="img\icon_location.png" class="icon_location"></a>
+                        <div class="footer_li">
+                            Localidad <span>Calle - provincia</span>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="img\icon_tel.png" class="icon_tel"></a>
+                        <div class="footer_li">
+                            Teléfono <span>Numero de teléfono</span>
+                        </div>
+                    </li>
+                    <li><a href="#"><img src="img\icon_email.png" class="icon_email"></a>
+                        <div class="footer_li">
+                            Corre Electrónico <span>Dirección de correo</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>   
+            <img src="img\logo2.png" alt="logo2" class="logo2_img">
+        </div>
+        <p class="footer_text">Todos los derechos reservados Front End</p>       
+    </footer>
+</body>
+</html>
